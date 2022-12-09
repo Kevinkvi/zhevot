@@ -1,0 +1,355 @@
+div {
+   border: 1px solid green;
+    padding: 5px;
+}
+body {
+    font-family:'Inter', sans-serif;
+}
+.logo img {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 34px;
+ padding-top: 37px;
+}
+.link ul {
+    padding-top: 38px;
+    margin: 2px;
+    font-size: 21px;
+}
+.link ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1px;
+    margin-left: 60px;
+}
+.cat img { 
+    position: absolute;
+    width: 500px;
+    height: 680px;
+    left: -130px;
+    top: 240px;
+    margin: auto;
+  max-width: 100%; 
+  z-index: 4;
+
+}
+.dog{
+    position: relative;
+}
+.cat{
+    position: relative;
+}
+.dog img {
+    position: absolute;
+    width: 769px;
+    height: 1163px;
+    left: -250px;
+    top: -20px;
+    display: flex;
+    z-index: 4;
+}
+.orange1{
+    position: absolute;
+    width: 1155px;
+    height: 1187px;
+    left: 1248px;
+    top: -253px;
+    z-index: 2;
+}
+.orange2{
+    position: absolute;
+    width: 913px;
+    height: 917px;
+    left: 438px;
+    top: 398px;
+    z-index: 2;
+}
+.yellow1{
+    position: absolute;
+    width: 413px;
+    height: 417px;
+    left: 838px;
+    top: 228px;
+    z-index: 1;
+}
+
+.block_1 {
+    z-index: 5;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.animals {
+    padding-bottom: 239px;
+    position: relative;
+}
+.description {
+    margin-top: 40px;
+}
+h1 {
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 57px
+}
+.p-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 115%;
+}
+.btn {
+    border-radius: 3px;
+    padding: 10px;
+    border:  #EFA969;
+width: 100%;
+background:none;
+color: #EFA969;
+border: 1px solid #EFA969;
+text-align: center;
+}
+.active {
+    text-align: center;
+    background: #EFA969;
+color:#ffff
+ }
+.staff {
+   margin-top: 5px;
+    font-size: 9px;
+}
+.shield {
+    padding: 13px 0px 0px 0px;
+}
+.staff {
+    margin-top: 0px ;
+    Font-size: 11px ;
+    padding: 0px 0px 0px 1px;
+   
+      }
+      .p-2 {
+        font-size: 16px;
+        Line-height: 25px;
+        padding: 35px 0px 0px 0px;
+        color: #707070;
+      }
+      h3{
+        Font-size: 48px;
+        Line-height: 100%;
+        margin: 66px 0px 0px 0px;
+      }
+      h5{
+        padding: 54px 0px 0px 154px;
+        margin: 44px 0px 0px 0px;
+        font-size: 13px;
+      }
+      .next {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 1610px;
+        top: 286px;
+         }
+         .p-3 {
+            color: #707070;     
+            Font-size: 14px;
+            Line-height: 18px;
+         }
+         .human-1{
+            width: 390px;
+            margin-right: 13px;
+         }
+        .human-2{
+            width: 390px;
+            margin-right: 14px;
+         }
+         .human-3{
+            width: 390px;
+            margin-right: 14px;
+         }
+         .human-4{
+            width: 390px;
+            margin-right: 14px;
+         }
+         .BTN-1{
+        margin: 0px 0px 0px 0px;
+         }
+         h4{
+            font-size: 18px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+         }
+         .person{
+            margin-top: 2px;
+            margin-bottom: 2px;
+         }
+         .ellipse ul li {
+            list-style: none;
+            display: inline-block;
+            color: #C4C4C4;
+            font-size: 25px;
+          margin-left: 20px;     
+         }
+         .ellipse ul {
+            padding: 0px 0px 0px 730px;
+            margin-top: 10px;
+         }
+         .blue {
+            background: #BFE4F4;
+            margin-right: 17px;
+            border-radius: 5%;
+            padding: 30px 0px 0px 44px;
+            width: 514px;
+            height: 260px;
+            display: table;  
+            position: relative;
+            overflow: hidden;  
+                    
+         }
+         .orange {
+            background: #F3C37C;
+            border-radius: 5%;
+            margin-right: 17px;
+            padding: 30px 0px 0px 44px;
+            width: 514px;
+            height: 260px;
+            display: table;
+            position: relative;
+            overflow: hidden;    
+            color: #ffff;  
+         }
+         .green {
+            background: #ABFFC8;
+            border-radius: 5%;
+            padding: 30px 0px 0px 44px;
+            width: 514px;
+            height: 260px;
+            display: table;
+            position: relative;
+            overflow: hidden;  
+            margin-right: 17px;  
+         }
+         .red{
+            background: #EFCECE;
+            border-radius: 5%;
+            margin-top: 10px;
+            padding: 30px 0px 0px 44px;
+            width: 514px;
+            height: 260px;
+            display: table;
+            position: relative;
+            overflow: hidden;    
+         }
+         .animal{
+          padding-right: 1px;
+          margin: 0px 10px;
+          width: 100px;
+          position: relative;
+         }
+         .wraper {
+            max-width: 1920px;
+            min-height: 100%;
+            overflow: hidden;
+         }
+         .container {
+            margin-left: 170px;
+            max-width: 1750px;
+            box-sizing: content-box;   
+        }
+ 
+        h2{
+            font-size: 20px;
+        }
+        .dog1{ 
+            width: 100%;
+            height: 100%;
+            display: table-cell;
+            text-align: right;
+            vertical-align: bottom;     
+        }
+       
+       .cat1 {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        text-align: right;
+        vertical-align: bottom;
+       }
+       .dog3 {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        text-align: right;
+        vertical-align: bottom;
+       }    
+        .podval{
+          display: flex;
+            background: rgb(255, 255, 255);   
+        }
+      
+        
+        .dog1{
+            position: absolute;
+            width: 240px;
+            height: 250px;
+            left: 273px;
+            top: 10px;
+            z-index: 1;
+        }
+        .dog2{
+            position: absolute;    
+            width: 180px;
+            height: 250px;
+            left: 340px;
+            top: 10px;
+            z-index: 1;
+        }
+        .cat1{
+            position: absolute;
+            width: 170px;
+            height: 220px;
+            left: 350px;
+            top: 40px;
+            z-index: 1;
+        }
+        .dog3 {
+             position: absolute;
+             width: 230px;
+             height: 230px;
+             left: 285px;
+             top: 30px;
+             z-index: 1;
+              }
+    .elipse{
+        position: absolute;    
+        width: 180px;
+        height: 180px;
+        left: 340px;
+        top: 80px;
+    }
+    .blue-prase{
+     color: #2B82A8;
+     margin-bottom: 0px;
+ }
+    .orange-prase{
+color:  #FFF7AB;
+margin-bottom: 0px;
+ }
+   .green-prase{
+color: #479B64;
+margin-bottom: 0px;
+   }
+   .red-prase{
+color: #C25454;
+margin-bottom: 0px;
+ }
+ .prace{
+    font-size: 24px;
+ } 
+ .text{
+    font-size: 16px;
+    margin-top: 27px;
+ }
+ .container-1{
+    width: 276px;
+    height: 146px;
+ }
