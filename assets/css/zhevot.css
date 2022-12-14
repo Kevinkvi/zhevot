@@ -116,16 +116,13 @@ color:#ffff
 .staff {
    margin-top: 5px;
     font-size: 9px;
+    Font-size: 11px ;
+    padding: 0px 0px 0px 1px;
 }
 .shield {
     padding: 13px 0px 0px 0px;
 }
-.staff {
-    margin-top: 0px ;
-    Font-size: 11px ;
-    padding: 0px 0px 0px 1px;
-   
-      }
+
       .p-2 {
         font-size: 16px;
         Line-height: 25px;
