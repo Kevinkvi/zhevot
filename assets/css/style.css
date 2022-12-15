@@ -1,8 +1,4 @@
-div {
-    border: 1px solid green;
-     padding: 5px;
- }
- body {
+body {
      font-family:'Inter', sans-serif;
  }
  .logo img {
