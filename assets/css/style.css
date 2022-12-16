@@ -4,26 +4,28 @@ div {
 body {
   font-family: "Inter", sans-serif;
 }
+@import url("https://fonts.cdnfonts.com/css/gotham-pro");
 .logo img {
-  padding-top: 37px;
+  padding-top: 0px;
 }
 .link ul {
-  padding-top: 38px;
+  padding-top: 6px;
   margin: 2px;
   font-size: 21px;
+  padding-left: 0px;
 }
 .link ul li {
   list-style: none;
   display: inline-block;
   margin: 1px;
-  margin-left: 55px;
+  margin-left: 49px;
 }
 .conteiner {
   margin-left: 130px;
 }
 .logo_misiq {
-  width: 100px;
-  height: 65px;
+  width: 103px;
+  height: 34px;
 }
 /*ps*/
 @media (max-width: 1087px) {
@@ -89,8 +91,8 @@ body {
   position: absolute;
   width: 358px;
   height: 400px;
-  left: -60px;
-  top: 219px;
+  left: 25px;
+  top: 172px;
   margin: auto;
   max-width: 100%;
   z-index: 4;
@@ -121,7 +123,7 @@ body {
   text-align: center;
 }
 .animals {
-  padding-bottom: 111px;
+  padding-bottom: 239px;
   position: relative;
 }
 .description {
@@ -129,15 +131,17 @@ body {
 }
 h1 {
   font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 58px;
   line-height: 57px;
+  font-family: "Gotham Pro", sans-serif;
 }
 .p-1 {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 31px;
   line-height: 115%;
+  font-family: "Gotham Pro", sans-serif;
 }
 .block_1 {
   z-index: 5;
@@ -153,7 +157,7 @@ h1 {
   position: absolute;
   width: 534px;
   height: 738px;
-  left: 863px;
+  left: 1241px;
   top: -71px;
   z-index: 2;
 }
@@ -161,7 +165,7 @@ h1 {
   position: absolute;
   width: 513px;
   height: 417px;
-  left: 446px;
+  left: 732px;
   top: 322px;
   z-index: 2;
 }
@@ -169,8 +173,8 @@ h1 {
   position: absolute;
   width: 162px;
   height: 142px;
-  left: 713px;
-  top: 215px;
+  left: 1017px;
+  top: 177px;
   z-index: 1;
 }
 /*ps*/
@@ -334,8 +338,9 @@ h1 {
 }
 h2 {
   font-size: 17px;
-  margin-left: 12px;
+  margin-left: -6px;
   margin-top: 10px;
+  font-family: "Gotham Pro", sans-serif;
 }
 .shield-1 {
   width: 25px;
