@@ -1,5 +1,6 @@
 div {
   padding: 5px;
+  border: 1px solid green;
 }
 body {
   font-family: "Inter", sans-serif;
@@ -152,6 +153,9 @@ h1 {
   text-align: center;
   background: #efa969;
   color: #ffff;
+}
+.elipse_boks {
+  position: relative;
 }
 .orange1 {
   position: absolute;
@@ -348,7 +352,6 @@ h2 {
 }
 .selection {
   margin-left: 130px;
-  margin-right: 130px;
 }
 .block_selection1 {
   margin-left: -18px;
@@ -517,24 +520,20 @@ h5 {
   }
 }
 .human-1 {
-  width: 356px;
-  margin-left: -28px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 .human-2 {
-  width: 356px;
-  margin-left: -28px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 .human-3 {
-  width: 356px;
-  margin-left: -28px;
-  height: 350px;
+  width: 100%;
+  height: 100%x;
 }
 .human-4 {
-  width: 356px;
-  margin-left: -28px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 .name_human {
   margin: 0px 0px 0px -31px;
@@ -580,50 +579,26 @@ h5 {
 }
 /*ps*/
 @media (max-width: 1087px) {
-  .human-1 {
-    width: 183px;
-    margin-left: 34px;
-    height: 219px;
-  }
-  .human-2 {
-    width: 183px;
-    margin-left: 34px;
-    height: 219px;
-  }
-  .human-3 {
-    width: 183px;
-    margin-left: 34px;
-    height: 219px;
-  }
-  .human-4 {
-    width: 183px;
-    margin-left: 34px;
-    height: 219px;
-  }
-  .name_human {
-    margin: 0px 0px 0px 30px;
-    font-size: 15px;
-  }
-  .amenities_human {
-    margin: 0px 0px 0px 30px;
-    font-size: 10px;
-  }
-  .btn_human {
-    margin: 0px 0px 0px 30px;
-  }
-  .next_left {
-    width: 40px;
-    height: 40px;
-    left: 59px;
-    top: 117px;
-  }
-  .next_right {
-    width: 40px;
-    height: 40px;
-    left: 33px;
-    top: 117px;
-  }
 }
+.name_human {
+  font-size: 15px;
+}
+.amenities_human {
+  font-size: 10px;
+}
+.next_left {
+  width: 40px;
+  height: 40px;
+  left: 59px;
+  top: 117px;
+}
+.next_right {
+  width: 40px;
+  height: 40px;
+  left: 33px;
+  top: 117px;
+}
+
 @media (max-width: 991px) {
   .human-1 {
     width: 141px;
