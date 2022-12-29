@@ -6,27 +6,28 @@ body {
   font-family: "Inter", sans-serif;
 }
 @import url("https://fonts.cdnfonts.com/css/gotham-pro");
+
 .logo img {
   padding-top: 0px;
 }
 .link ul {
-  padding-top: 6px;
+  padding-top: 7px;
   margin: 2px;
-  font-size: 21px;
+  font-size: 18px;
   padding-left: 0px;
 }
 .link ul li {
   list-style: none;
   display: inline-block;
-  margin: 1px;
-  margin-left: 49px;
+  margin: 0px;
+  margin-left: 28px;
 }
 .conteiner {
   margin-left: 130px;
 }
 .logo_misiq {
-  width: 103px;
-  height: 34px;
+  width: 89px;
+  height: 26px;
 }
 /*ps*/
 @media (max-width: 1087px) {
@@ -90,12 +91,10 @@ body {
 }
 .cat img {
   position: absolute;
-  width: 858px;
-  height: 800px;
+  width: 370px;
+  height: 664px;
   left: -168px;
-  top: 249px;
-  margin: auto;
-  max-width: 100%;
+  top: 223px;
   z-index: 4;
 }
 .dog {
@@ -106,13 +105,13 @@ body {
 }
 .dog img {
   position: absolute;
-  width: 869px;
-  height: 1108px;
-  left: -306px;
-  top: 9px;
-  display: flex;
+  width: 611px;
+  height: 1086px;
+  left: -225px;
+  top: -8px;
   z-index: 4;
 }
+
 .btn {
   border-radius: 3px;
   padding: 18px;
@@ -124,7 +123,7 @@ body {
   text-align: center;
 }
 .animals {
-  padding-bottom: 239px;
+  padding-bottom: 190px;
   position: relative;
 }
 .description {
@@ -133,14 +132,15 @@ body {
 h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 46px;
   line-height: 57px;
   font-family: "Gotham Pro", sans-serif;
+  margin-bottom: 0px;
 }
 .p-1 {
   font-style: normal;
   font-weight: 400;
-  font-size: 31px;
+  font-size: 21px;
   line-height: 115%;
   font-family: "Gotham Pro", sans-serif;
 }
@@ -155,30 +155,27 @@ h1 {
   color: #ffff;
 }
 .elipse_boks {
-  position: relative;
+  position: absolute;
+  right: -245px;
 }
 .orange1 {
-  position: absolute;
-  width: 534px;
-  height: 805px;
-  left: 1204px;
-  top: -70px;
+  width: 95%;
+  top: -114px;
   z-index: 2;
+  position: absolute;
 }
 .orange2 {
   position: absolute;
-  width: 828px;
-  height: 663px;
-  left: 503px;
-  top: 414px;
+  width: 122%;
+  left: -70%;
+  top: 371px;
   z-index: 2;
 }
 .yellow1 {
   position: absolute;
-  width: 262px;
-  height: 242px;
-  left: 896px;
-  top: 191px;
+  width: 49%;
+  left: -22%;
+  top: 171px;
   z-index: 1;
 }
 /*ps*/
@@ -354,10 +351,10 @@ h2 {
   margin-left: 130px;
 }
 .block_selection1 {
-  margin-left: -18px;
+  margin-left: -27px;
 }
 .block_selection2 {
-  margin-left: -18px;
+  margin-left: -3px;
 }
 
 .block_selection3 {
@@ -536,16 +533,14 @@ h5 {
   height: 100%;
 }
 .name_human {
-  margin: 0px 0px 0px -31px;
+  margin: 0px 0px 0px 0px;
   font-size: 21px;
 }
 .amenities_human {
-  margin: 0px 0px 0px -31px;
-  font-size: 16px;
+  margin: 0px 0px 0px 0px;
+  font-size: 10px;
 }
-.btn_human {
-  margin: 17px 37px 0px -36px;
-}
+
 .human_btn {
   padding: 10px 0px 10px 0px;
 }
@@ -563,9 +558,7 @@ h5 {
   left: 0px;
   top: 171px;
 }
-.circle {
-  margin-left: 830px;
-}
+
 .dot {
   width: 10px;
   height: 10px;
@@ -583,9 +576,7 @@ h5 {
 .name_human {
   font-size: 15px;
 }
-.amenities_human {
-  font-size: 10px;
-}
+
 .next_left {
   width: 40px;
   height: 40px;
@@ -600,37 +591,14 @@ h5 {
 }
 
 @media (max-width: 991px) {
-  .human-1 {
-    width: 141px;
-    margin-left: 34px;
-    height: 184px;
-  }
-  .human-2 {
-    width: 141px;
-    margin-left: 34px;
-    height: 184px;
-  }
-  .human-3 {
-    width: 141px;
-    margin-left: 34px;
-    height: 184px;
-  }
-  .human-4 {
-    width: 141px;
-    margin-left: 34px;
-    height: 184px;
-  }
   .name_human {
-    margin: 0px 0px 0px 30px;
     font-size: 13px;
   }
   .amenities_human {
     margin: 0px 0px 0px 30px;
     font-size: 10px;
   }
-  .btn_human {
-    margin: 0px 0px 0px 30px;
-  }
+
   .next_left {
     width: 40px;
     height: 40px;
@@ -645,37 +613,14 @@ h5 {
   }
 }
 @media (max-width: 768px) {
-  .human-1 {
-    width: 130px;
-    margin-left: -15px;
-    height: 164px;
-  }
-  .human-2 {
-    width: 127px;
-    margin-left: -13px;
-    height: 164px;
-  }
-  .human-3 {
-    width: 127px;
-    margin-left: -14px;
-    height: 164px;
-  }
-  .human-4 {
-    width: 143px;
-    margin-left: -14px;
-    height: 164px;
-  }
   .name_human {
-    margin: 0px -7px 0px -17px;
     font-size: 13px;
   }
   .amenities_human {
     margin: 0px 0px 0px -17px;
     font-size: 9px;
   }
-  .btn_human {
-    margin: 0px 7px 0px -20px;
-  }
+
   .next_left {
     width: 30px;
     height: 30px;
@@ -741,7 +686,7 @@ h5 {
   position: relative;
 }
 .wraper {
-  max-width: 1920px;
+  max-width: 100%;
   min-height: 100%;
   overflow: hidden;
 }
